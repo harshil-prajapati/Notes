@@ -48,7 +48,7 @@ Tree traversal refers to visiting all nodes of a tree systematically. The main m
  / \  
 2   3  
 /     \
-4    5
+4     5
 ## 1. **In-order Traversal (Left, Root, Right)**  
 ### Algorithm:  
 1. Traverse the left subtree.  
@@ -81,3 +81,4 @@ Tree traversal refers to visiting all nodes of a tree systematically. The main m
 | **Operations**      | `Push`, `Pop`, `Peek`             | `Enqueue`, `Dequeue`, `Peek`      |
 | **Structure**       | Linear, works like a stack of plates. | Linear, works like a queue in a line. |
 
+new

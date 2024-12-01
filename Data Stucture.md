@@ -20,6 +20,8 @@
    - Reset `front = -1` and `rear = -1`
 5. **Stop**
 ---
+---
+---
 # Algorithm to Reverse a Linked List
 ## Input:
 A singly linked list with `head` pointing to the first node.
@@ -37,6 +39,8 @@ The linked list reversed.
    - Move `current` to `next`: `current = next`
 4. Update `head = prev` (set the new head of the reversed list)
 5. **Stop**
+---
+---
 ---
 # Tree Traversal Methods  
 Tree traversal refers to visiting all nodes of a tree systematically. The main methods are:  
@@ -66,6 +70,8 @@ Tree traversal refers to visiting all nodes of a tree systematically. The main m
 3. Visit the root node.  
 **Post-order Output:** `4, 5, 2, 3, 1`  
 ---
+---
+---
 # Difference Between Stack and Queue  
 | **Aspect**         | **Stack**                          | **Queue**                         |
 |---------------------|------------------------------------|------------------------------------|
@@ -76,6 +82,8 @@ Tree traversal refers to visiting all nodes of a tree systematically. The main m
 | **Example**         | Browser backtracking (undo operations). | Printer job scheduling or ticket booking system. |
 | **Operations**      | `Push`, `Pop`, `Peek`             | `Enqueue`, `Dequeue`, `Peek`      |
 | **Structure**       | Linear, works like a stack of plates. | Linear, works like a queue in a line. |
+---
+---
 ---
 # Algorithms for Stack Operations  
 ## 1. **Push (Insert Element)**  
@@ -117,6 +125,8 @@ Tree traversal refers to visiting all nodes of a tree systematically. The main m
 3. Otherwise, return **false**.  
 4. **Stop**  
 ---
+---
+---
 # Binary Search  
 Binary search is an efficient algorithm used to find the position of a target element in a **sorted array**. It works by repeatedly dividing the search interval in half.
 ## Algorithm:  
@@ -141,6 +151,8 @@ Find the position of `25` in the sorted array: `[10, 15, 20, 25, 30, 35, 40]`.
    - `arr[3] == 25`, so the element is found at index `3`.  
 ### Output:  
 The position of `25` is **index 3** in the array.  
+---
+---
 ---
 # Bubble Sort  
 Bubble sort is a simple sorting algorithm that repeatedly compares adjacent elements and swaps them if they are in the wrong order. It continues until the entire list is sorted.
@@ -168,6 +180,8 @@ Sort the array `[5, 3, 8, 4, 2]` using bubble sort.
 ### Output:  
 The sorted array is `[2, 3, 4, 5, 8]`.  
 ---
+---
+---
 # What is a Data Structure?
 A **data structure** is a way to organize, manage, and store data in a computer so that it can be accessed and modified efficiently. It is used to handle large amounts of data and perform operations like searching, sorting, inserting, deleting, and updating.
 # Types of Data Structures  
@@ -194,6 +208,8 @@ These store data using key-value pairs for quick access.
 - **Hash Table**  
 - **Hash Map**  
 ---
+---
+---
 # Algorithm to Insert a Node at the Beginning of a Singly Linked List  
 ### Algorithm:
 1. **Start**  
@@ -209,6 +225,8 @@ These store data using key-value pairs for quick access.
 ### Example:
 Consider an initial linked list: `head -> 2 -> 3 -> NULL`
 - After inserting `1` at the beginning, the linked list will become: `head -> 1 -> 2 -> 3 -> NULL`
+---
+---
 ---
 # Algorithm to Insert a Node in a Binary Tree
 ### Algorithm:
@@ -244,6 +262,8 @@ Consider a binary tree with the following structure:
 40
 The new node is inserted as the left child of `20`.
 ---
+---
+---
 # Sequential Search  
 **Sequential Search** is a simple searching algorithm that checks each element of the list sequentially until the target element is found or the entire list has been searched. It works on both sorted and unsorted lists.
 ### Algorithm for Sequential Search:
@@ -268,6 +288,8 @@ The target `9` is found at index `3`.
 ### Time Complexity:
 - **Best case**: `O(1)` (If the target is the first element in the list).
 - **Worst case**: `O(n)` (If the target is at the last position or not in the list).
+---
+---
 ---
 # Selection Sort  
 **Selection Sort** is a simple sorting algorithm that repeatedly selects the smallest (or largest) element from the unsorted portion of the list and swaps it with the first unsorted element. It continues this process until the entire list is sorted.
@@ -312,6 +334,8 @@ The sorted array is `[11, 12, 22, 25, 64]`.
 - **Worst case**: `O(n^2)`
 - **Average case**: `O(n^2)`
 ---
+---
+---
 # Insertion Sort  
 **Insertion Sort** is a simple sorting algorithm that builds the final sorted array one element at a time. It is much like sorting playing cards in your hands. The array is divided into two parts: a sorted part and an unsorted part. The algorithm repeatedly picks the first element from the unsorted part and inserts it into the correct position in the sorted part.
 ### Algorithm for Insertion Sort:
@@ -343,6 +367,8 @@ The sorted array is `[5, 6, 11, 12, 13]`.
 - **Best case**: `O(n)` (If the array is already sorted).
 - **Worst case**: `O(n^2)` (If the array is sorted in reverse order).
 - **Average case**: `O(n^2)`
+---
+---
 ---
 # Bubble Sort  
 **Bubble Sort** is a simple comparison-based sorting algorithm. It repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The process is repeated until the list is sorted. The algorithm gets its name from the way smaller elements "bubble" to the top (beginning of the list).
@@ -393,6 +419,8 @@ The sorted array is `[11, 12, 22, 25, 34, 64, 90]`.
 - **Worst case**: `O(n^2)` (If the array is sorted in reverse order).
 - **Average case**: `O(n^2)`
 ---
+---
+---
 # Difference Between Primitive and Non-Primitive Data Types
 | Feature                 | Primitive Data Types      | Non-Primitive Data Types     |
 |-------------------------|----------------------------|------------------------------|
@@ -403,6 +431,8 @@ The sorted array is `[11, 12, 22, 25, 34, 64, 90]`.
 | **Examples**             | `int`, `char`, `boolean`.  | Arrays, Objects, Strings. |
 | **Mutability**           | Immutable.                 | Mutable. |
 | **Operations**           | Basic operations (e.g., arithmetic). | Complex operations (e.g., manipulation of objects or collections). |
+---
+---
 ---
 # Algorithms for Stack Operations
 A **stack** is a linear data structure that follows the **Last In First Out (LIFO)** principle. It supports operations such as push, pop, peek, and isEmpty.
@@ -465,6 +495,8 @@ If the stack has `maxSize = 5` and `top = 4`:
 If `top = 3`, `maxSize = 5`:
 - isFull: Return `false`
 ---
+---
+---
 # Circular Queue
 A **Circular Queue** is a linear data structure that follows the **First In First Out (FIFO)** principle. Unlike a regular queue, the last position is connected to the first position to form a circle. When the queue is full and an element is dequeued, the front pointer moves to the beginning of the queue, making space for new elements. This efficient use of space avoids the "wasting" of space that occurs in a regular queue.
 ### Features:
@@ -510,6 +542,8 @@ Given a circular queue of size 5:
 - **Insertion**: `O(1)`
 - **Deletion**: `O(1)`
 ---
+---
+---
 # Comparison of Simple Queue, Double Ended Queue (Deque), and Circular Queue
 | Feature                    | Simple Queue                     | Circular Queue                  | Double Ended Queue (Deque)      |
 |----------------------------|-----------------------------------|----------------------------------|---------------------------------|
@@ -522,6 +556,8 @@ Given a circular queue of size 5:
 | **Memory Usage**            | Fixed size (static or dynamic).   | Fixed size but makes better use of space. | Dynamic memory usage. |
 | **Applications**            | Basic queue operations.           | Used in buffering and circular buffers. | Used in problems requiring insertion and deletion from both ends (e.g., sliding window problems). |
 ---
+---
+---
 # Comparison of Sequential Search, Binary Search, Stack, and Queue
 | Feature                    | Sequential Search                | Binary Search                   | Stack                           | Queue                           |
 |----------------------------|-----------------------------------|----------------------------------|---------------------------------|---------------------------------|
@@ -533,6 +569,8 @@ Given a circular queue of size 5:
 | **Worst Case**              | O(n) (If the element is at the last position or not found). | O(log n) (If the element is at the extreme ends or not found). | O(n) for pushing and popping all elements. | O(n) for enqueueing and dequeueing all elements. |
 | **Sorting Requirement**     | No sorting required.              | Requires sorted array.           | No sorting required.            | No sorting required.            |
 | **Use Cases**               | Simple search in unsorted data.   | Efficient search in sorted data. | Function calls, undo operations, and expression evaluation. | Task scheduling, buffering, and data transfer. |
+---
+---
 ---
 # Infix to Prefix Conversion with Examples
 To convert an infix expression to a prefix expression, follow these steps:
@@ -567,17 +605,15 @@ The prefix expression for `A + B * C` is `+A*BC`.
 ### Example 3:
 Infix Expression: `(A + B) * (C + D)`
 #### Step 1: Reverse the expression.
-Reversed Infix Expression: `)D + C( * )B + A(`
----
-#### Step 2: Replace parentheses.
+Reversed Infix Expression: `)D + C( * )B + A(`p 2: Replace parentheses.
 Replaced Expression: `(D + C) * (B + A)`
-
 #### Step 3: Apply infix to postfix conversion.
 Postfix Expression: `DC+BA+*`
-
 #### Step 4: Reverse the postfix expression.
 Prefix Expression: `*+AB+CD`
-
 ### Final Result:
 The prefix expression for `(A + B) * (C + D)` is `*+AB+CD`.
+---
+---
+---
 

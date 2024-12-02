@@ -1,35 +1,3 @@
-<div align="center"><h2>Index</h2></div>
-1. [[#Features of Java]]
-2. What is JDK, JRE, JVM, JIT, GC
-3. Explain OOPs Concept and Advantages of OOPs
-4. What is Class and Object? Differentiate it
-5. What is Inheritance? Explain its types
-6. What is Polymorphism? Explain its types or explain method overriding and overloading
-7. What is Wrapper class?
-8. Differentiate between constructor and function
-9. What is use of abstract class? List out its restriction
-10. Differentiate String and StringBuffer
-11. List out any 10 methods of string handling methods with return type, parameters of the method and use of that method
-12. Explain any 3 methods that are available in StringBuffer class but not in String Class
-13. What is Exception? Explain Errors and Exception in detail
-14. Explain try, catch, finally, throw and throws
-15. Which are the ways to implement a thread in Java? Explain with example
-16. Explain thread life cycle with example and Thread Priorities
-17. Write tabular form of access modifier in package
-18. What is generics? Explain bounded types, and generic hierarchies in detail
-19. Explain Hashtable
-20. Differentiate Vector and List
-21. Explain Set, Enumeration and Map in detail
-22. What is Lambda Expression? Discuss its advantages and also write down in which version of JDK/Java they were introduced
-23. Explain block expression and generic function interface in detail. How to pass parameters in lambda expression function?
-24. How to implement exception handling in lambda expression?
-25. Explain method and constructor references
-26. What is synchronization?
-27. Explain in detail CountDownLatch, CyclicBarrier, Semaphore, Exchanger, Phaser
-28. Explain Fork/Join using parallel programming
-29. Write an index for the 29 different questions I asked you and give me the list
-
-This is the complete list of the 29 questions you've asked.
 
 ---
 ### Features of Java
@@ -49,7 +17,7 @@ This is the complete list of the 29 questions you've asked.
 ---
 ---
 ---
-### JDK, JRE, JVM, JIT, GC
+### What is JDK, JRE, JVM, JIT, GC
 
 1. **JDK (Java Development Kit)**  
     A software development kit used to develop Java applications. It includes tools like a compiler (javac), debugger, and the JRE.

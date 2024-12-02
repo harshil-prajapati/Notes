@@ -306,33 +306,42 @@ The target `9` is found at index `3`.
    - After finding the minimum element in the remaining unsorted part, swap it with the element at index `i` (i.e., `arr[i]` and `arr[min_index]`).
 3. Repeat step 2 until the entire list is sorted.
 4. **Stop**
-### Example:
+### Example: Selection Sort  
 Given the array: `[64, 25, 12, 22, 11]`
+
 1. **Pass 1**:  
-   - `min_index = 0`, `arr[0] = 64`.  
-   - Compare `64` with the rest of the elements:
-     - `64 > 25`, so update `min_index = 1`.
-     - `25 < 12`, so update `min_index = 2`.
-     - `12 < 22`, so update `min_index = 3`.
-     - `12 < 11`, so update `min_index = 4`.
-   - Swap `arr[0]` and `arr[4]`, resulting in `[11, 25, 12, 22, 64]`.
+   - Start with `min_index = 0`, `arr[0] = 64`.  
+   - Compare `64` with the other elements:
+     - `64 > 25`, update `min_index = 1`.
+     - `25 > 12`, update `min_index = 2`.
+     - `12 > 22`, no change.
+     - `12 > 11`, update `min_index = 4`.
+   - Swap `arr[0]` and `arr[4]`.  
+   - **Array after Pass 1**: `[11, 25, 12, 22, 64]`.
+
 2. **Pass 2**:  
-   - `min_index = 1`, `arr[1] = 25`.  
-   - Compare `25` with the rest of the elements:
-     - `25 > 12`, so update `min_index = 2`.
-     - `12 < 22`, so `min_index` remains `2`.
-   - Swap `arr[1]` and `arr[2]`, resulting in `[11, 12, 25, 22, 64]`.
+   - Start with `min_index = 1`, `arr[1] = 25`.  
+   - Compare `25` with the remaining elements:
+     - `25 > 12`, update `min_index = 2`.
+     - `12 > 22`, no change.
+   - Swap `arr[1]` and `arr[2]`.  
+   - **Array after Pass 2**: `[11, 12, 25, 22, 64]`.
+
 3. **Pass 3**:  
-   - `min_index = 2`, `arr[2] = 25`.  
-   - Compare `25` with `22`:
-     - `25 > 22`, so update `min_index = 3`.
-   - Swap `arr[2]` and `arr[3]`, resulting in `[11, 12, 22, 25, 64]`.
+   - Start with `min_index = 2`, `arr[2] = 25`.  
+   - Compare `25` with the remaining elements:
+     - `25 > 22`, update `min_index = 3`.
+   - Swap `arr[2]` and `arr[3]`.  
+   - **Array after Pass 3**: `[11, 12, 22, 25, 64]`.
+
 4. **Pass 4**:  
-   - `min_index = 3`, `arr[3] = 25`.  
-   - No changes needed as `25 < 64`.
-   - Array remains `[11, 12, 22, 25, 64]`.
+   - Start with `min_index = 3`, `arr[3] = 25`.  
+   - Compare `25` with `64`, no changes needed.
+   - **Array remains**: `[11, 12, 22, 25, 64]`.
+
 ### Output:
 The sorted array is `[11, 12, 22, 25, 64]`.
+
 ### Time Complexity:
 - **Best case**: `O(n^2)`
 - **Worst case**: `O(n^2)`

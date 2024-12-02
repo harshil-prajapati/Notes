@@ -51,18 +51,19 @@ Tree traversal refers to visiting all nodes of a tree systematically. The main m
 2   3  
 /     \
 4     5
-## 1. **In-order Traversal (Left, Root, Right)**  
-### Algorithm:  
-1. Traverse the left subtree.  
-2. Visit the root node.  
-3. Traverse the right subtree.  
-**In-order Output:** `4, 2, 5, 1, 3`  
-## 2. **Pre-order Traversal (Root, Left, Right)**  
+## 1. **Pre-order Traversal (Root, Left, Right)**  
 ### Algorithm:  
 1. Visit the root node.  
 2. Traverse the left subtree.  
 3. Traverse the right subtree.  
 **Pre-order Output:** `1, 2, 4, 5, 3`  
+## 2. **In-order Traversal (Left, Root, Right)**  
+### Algorithm:  
+1. Traverse the left subtree.  
+2. Visit the root node.  
+3. Traverse the right subtree.  
+**In-order Output:** `4, 2, 5, 1, 3`  
+
 ## 3. **Post-order Traversal (Left, Right, Root)**  
 ### Algorithm:  
 1. Traverse the left subtree.  
@@ -258,7 +259,7 @@ Consider a binary tree with the following structure:
  /  \
 20   30
 - After inserting `40`, the tree will become:
-  10
+ 10
  /  \
 20   30
 /

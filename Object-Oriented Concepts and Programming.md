@@ -545,7 +545,7 @@ public class Main {
 1. **New**: Thread is created but not started.
 2. **Runnable**: Thread is eligible for execution after `start()`.
 3. **Blocked/Waiting**: Thread is waiting for a resource or lock.
-4. **running** state is when a thread is actively executing its code after being selected by the thread scheduler.
+4. **Running**: state is when a thread is actively executing its code after being selected by the thread scheduler.
 5. **Timed Waiting**: Thread is waiting for a specific time using `Thread.sleep()`.
 6. **Terminated**: Thread finishes execution.
 ---

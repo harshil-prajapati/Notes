@@ -545,8 +545,9 @@ public class Main {
 1. **New**: Thread is created but not started.
 2. **Runnable**: Thread is eligible for execution after `start()`.
 3. **Blocked/Waiting**: Thread is waiting for a resource or lock.
-4. **Timed Waiting**: Thread is waiting for a specific time using `Thread.sleep()`.
-5. **Terminated**: Thread finishes execution.
+4. **running** state is when a thread is actively executing its code after being selected by the thread scheduler.
+5. **Timed Waiting**: Thread is waiting for a specific time using `Thread.sleep()`.
+6. **Terminated**: Thread finishes execution.
 ---
 ### Thread Priority
 - Thread priorities range from `Thread.MIN_PRIORITY` (1) to `Thread.MAX_PRIORITY` (10), with the default priority being `Thread.NORM_PRIORITY` (5).

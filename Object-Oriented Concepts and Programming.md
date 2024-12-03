@@ -539,7 +539,7 @@ public class Main {
 ---
 ---
 ---
-### Which are the ways to implement thread in Java? Explain with example.
+### Explain Thread Life Cycle and its Prority.
 ---
 ### Thread Life Cycle
 1. **New**: Thread is created but not started.
